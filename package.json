@@ -1,0 +1,56 @@
+{
+  "name": "path-reducer",
+  "version": "0.0.1",
+  "description": "Redux middleware that updates the state with action path",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint lib",
+    "test": "npm run lint && npm run test-cov",
+    "test-cov-es6": "./node_modules/.bin/babel-node ./node_modules/.bin/isparta cover ./node_modules/.bin/_mocha",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appfeel/path-reducer.git"
+  },
+  "author": "AppFeel <info@appfeel.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appfeel/path-reducer/issues"
+  },
+  "homepage": "https://github.com/appfeel/path-reducer",
+  "dependencies": {},
+  "peerDependencies": {
+    "immutable": "^3.8.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "babel-core": "5.8.34",
+    "chai": "^3.5.0",
+    "deep-freeze": "0.0.1",
+    "eslint": "0.23.0",
+    "eslint-plugin-react": "2.5.2",
+    "immutable": "^3.8.1",
+    "isparta": "^4.0.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
+    "mockery": "1.4.0",
+    "react": "0.14.7",
+    "redux": "^3.5.2",
+    "tape": "3.5.0"
+  },
+  "tags": [
+    "redux",
+    "middleware",
+    "reducer",
+    "immutable",
+    "state"
+  ],
+  "keywords": [
+    "redux",
+    "middleware",
+    "reducer",
+    "immutable",
+    "state"
+  ]
+}
