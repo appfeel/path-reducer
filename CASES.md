@@ -2,44 +2,44 @@
 Here you can find the diferent cases where you can modify the state with a path.
 
 - [Object store state](https://github.com/appfeel/path-reducer/blob/master/CASES.md#object-store-state)
-  - [Do nothing](https://github.com/appfeel/path-reducer/blob/master/CASES.md#do-nothing)
-  - [Do nothing alt](https://github.com/appfeel/path-reducer/blob/master/CASES.md#do-nothing-alt)
-  - [Add element](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-element)
-  - [Update element](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-element)
-  - [Remove element](https://github.com/appfeel/path-reducer/blob/master/CASES.md#remove-element)
-  - [Add object](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object)
-  - [Add element in object](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-element-in-object)
-  - [Add object in object](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-in-object)
-  - [Add array in object](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-array-in-object)
-  - [Update object](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-object)
-  - [Update element in object](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-element-in-object)
-  - [Remove object](https://github.com/appfeel/path-reducer/blob/master/CASES.md#remove-object)
-  - [Add object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-in-array)
-  - [Update array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-array)
-  - [Remove array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#remove-array)
-  - [Remove object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#remove-object-in-array)
-  - [Remove objects in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#remove-objects-in-array)
-  - [Remove all in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#remove-all-in-array)
-  - [Add element in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-element-in-array)
-  - [Update element in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-element-in-array)
-  - [Add object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-in-array)
-  - [Add element in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-element-in-object-in-array)
-  - [Add object in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-in-object-in-array)
-  - [Add array in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-array-in-object-in-array)
-  - [Update object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-object-in-array)
-  - [Update element in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-element-in-object-in-array)
+  - [Do nothing](https://github.com/appfeel/path-reducer/blob/master/CASES.md#do-nothing-action)
+  - [Do nothing alt](https://github.com/appfeel/path-reducer/blob/master/CASES.md#do-nothing-alt-action)
+  - [Add element](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-element-action)
+  - [Update element](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-element-action)
+  - [Remove element](https://github.com/appfeel/path-reducer/blob/master/CASES.md#remove-element-action)
+  - [Add object](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-action)
+  - [Add element in object](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-element-in-object-action)
+  - [Add object in object](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-in-object-action)
+  - [Add array in object](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-array-in-object-action)
+  - [Update object](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-object-action)
+  - [Update element in object](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-element-in-object-action)
+  - [Remove object](https://github.com/appfeel/path-reducer/blob/master/CASES.md#remove-object-action)
+  - [Add object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-in-array-action)
+  - [Update array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-array-action)
+  - [Remove array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#remove-array-action)
+  - [Remove object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#remove-object-in-array-action)
+  - [Remove objects in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#remove-objects-in-array-action)
+  - [Remove all in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#remove-all-in-array-action)
+  - [Add element in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-element-in-array-action)
+  - [Update element in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-element-in-array-action)
+  - [Add object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-in-array-action)
+  - [Add element in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-element-in-object-in-array-action)
+  - [Add object in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-in-object-in-array-action)
+  - [Add array in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-array-in-object-in-array-action)
+  - [Update object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-object-in-array-action)
+  - [Update element in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-element-in-object-in-array-action)
 - [Array store state](https://github.com/appfeel/path-reducer/blob/master/CASES.md#array-store-state)
-  - [Add object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-in-array)
-  - [Update array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-array)
-  - [Remove object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#remove-object-in-array)
-  - [Add element in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-element-in-array)
-  - [Update element in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-element-in-array)
-  - [Add object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-in-array)
-  - [Add element in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-element-in-object-in-array)
-  - [Add object in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-in-object-in-array)
-  - [Add array in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-array-in-object-in-array)
-  - [Update object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-object-in-array)
-  - [Update element in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-element-in-object-in-array)
+  - [Add object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-in-array-action)
+  - [Update array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-array-action)
+  - [Remove object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#remove-object-in-array-action)
+  - [Add element in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-element-in-array-action)
+  - [Update element in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-element-in-array-action)
+  - [Add object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-in-array-action)
+  - [Add element in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-element-in-object-in-array-action)
+  - [Add object in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-object-in-object-in-array-action)
+  - [Add array in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-array-in-object-in-array-action)
+  - [Update object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-object-in-array-action)
+  - [Update element in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-element-in-object-in-array-action)
 ## Object store state
 ### Do nothing action
 Dispatched action: doNothing:
@@ -1748,7 +1748,7 @@ store.dispatch({
     },
     "lee": []
 }</pre>    </th>  </tr></table>
-###  add element in array action
+### Add element in array action
 Dispatched action: _addElementInArray:
 
 ```javascript
@@ -1834,7 +1834,7 @@ store.dispatch({
         }
     ]
 }</pre>    </th>  </tr></table>
-###  update element in array action
+### Update element in array action
 Dispatched action: _updateElementInArray:
 
 ```javascript
@@ -1924,7 +1924,7 @@ store.dispatch({
         }
     ]
 }</pre>    </th>  </tr></table>
-###  add object in array action
+### Add object in array action
 Dispatched action: _addObjectInArray:
 
 ```javascript
@@ -2015,7 +2015,7 @@ store.dispatch({
         }
     ]
 }</pre>    </th>  </tr></table>
-###  add element in object in array action
+### Add element in object in array action
 Dispatched action: _addElementInObjectInArray:
 
 ```javascript
@@ -2105,7 +2105,7 @@ store.dispatch({
         }
     ]
 }</pre>    </th>  </tr></table>
-###  add object in object in array action
+### Add object in object in array action
 Dispatched action: _addObjectInObjectInArray:
 
 ```javascript
@@ -2202,7 +2202,7 @@ store.dispatch({
         }
     ]
 }</pre>    </th>  </tr></table>
-###  add array in object in array action
+### Add array in object in array action
 Dispatched action: _addArrayInObjectInArray:
 
 ```javascript
@@ -2305,7 +2305,7 @@ store.dispatch({
         }
     ]
 }</pre>    </th>  </tr></table>
-###  update object in array action
+### Update object in array action
 Dispatched action: _updateObjectInArray:
 
 ```javascript
@@ -2398,7 +2398,7 @@ store.dispatch({
         }
     ]
 }</pre>    </th>  </tr></table>
-###  update element in object in array action
+### Update element in object in array action
 Dispatched action: _updateElementInObjectInArray:
 
 ```javascript
@@ -2490,7 +2490,7 @@ store.dispatch({
     ]
 }</pre>    </th>  </tr></table>
 ## Array store state
-###   add object in array action
+### Add object in array action
 Dispatched action: __addObjectInArray:
 
 ```javascript
@@ -2607,7 +2607,7 @@ store.dispatch({
         }
     }
 ]</pre>    </th>  </tr></table>
-###   update array action
+### Update array action
 Dispatched action: __updateArray:
 
 ```javascript
@@ -2710,7 +2710,7 @@ store.dispatch({
         }
     }
 ]</pre>    </th>  </tr></table>
-###   remove object in array action
+### Remove object in array action
 Dispatched action: __removeObjectInArray:
 
 ```javascript
@@ -2791,7 +2791,7 @@ store.dispatch({
         }
     }
 ]</pre>    </th>  </tr></table>
-###    add element in array action
+### Add element in array action
 Dispatched action: ___addElementInArray:
 
 ```javascript
@@ -2862,7 +2862,7 @@ store.dispatch({
         }
     }
 ]</pre>    </th>  </tr></table>
-###    update element in array action
+### Update element in array action
 Dispatched action: ___updateElementInArray:
 
 ```javascript
@@ -2937,7 +2937,7 @@ store.dispatch({
         }
     }
 ]</pre>    </th>  </tr></table>
-###    add object in array action
+### Add object in array action
 Dispatched action: ___addObjectInArray:
 
 ```javascript
@@ -3013,7 +3013,7 @@ store.dispatch({
         }
     }
 ]</pre>    </th>  </tr></table>
-###    add element in object in array action
+### Add element in object in array action
 Dispatched action: ___addElementInObjectInArray:
 
 ```javascript
@@ -3088,7 +3088,7 @@ store.dispatch({
         }
     }
 ]</pre>    </th>  </tr></table>
-###    add object in object in array action
+### Add object in object in array action
 Dispatched action: ___addObjectInObjectInArray:
 
 ```javascript
@@ -3170,7 +3170,7 @@ store.dispatch({
         }
     }
 ]</pre>    </th>  </tr></table>
-###    add array in object in array action
+### Add array in object in array action
 Dispatched action: ___addArrayInObjectInArray:
 
 ```javascript
@@ -3258,7 +3258,7 @@ store.dispatch({
         }
     }
 ]</pre>    </th>  </tr></table>
-###    update object in array action
+### Update object in array action
 Dispatched action: ___updateObjectInArray:
 
 ```javascript
@@ -3336,7 +3336,7 @@ store.dispatch({
         }
     }
 ]</pre>    </th>  </tr></table>
-###    update element in object in array action
+### Update element in object in array action
 Dispatched action: ___updateElementInObjectInArray:
 
 ```javascript

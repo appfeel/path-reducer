@@ -94,7 +94,7 @@ function generateDocIndex(type, actions) {
         if (objActions.hasOwnProperty(action)) {
             const caseLink = humanize(objActions[action].type.replace(/_/g, ''));
             const caseLinkAnchor = caseLink.replace(/\s/g, '-').toLowerCase();
-            log += `  - [${caseLink}](https://github.com/appfeel/path-reducer/blob/master/CASES.md#${caseLinkAnchor})\n`;
+            log += `  - [${caseLink}](https://github.com/appfeel/path-reducer/blob/master/CASES.md#${caseLinkAnchor}-action)\n`;
         }
     }
 }
