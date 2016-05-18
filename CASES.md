@@ -40,7 +40,9 @@ Here you can find the diferent cases where you can modify the state with a path.
   - [Add array in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#add-array-in-object-in-array-action)
   - [Update object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-object-in-array-action)
   - [Update element in object in array](https://github.com/appfeel/path-reducer/blob/master/CASES.md#update-element-in-object-in-array-action)
+
 ## Object store state
+
 ### Do nothing action
 Dispatched action: doNothing:
 
@@ -2516,6 +2518,7 @@ store.dispatch({
 }</pre></th></tr></table>
 
 ## Array store state
+
 ### Add object in array action
 Dispatched action: __addObjectInArray:
 

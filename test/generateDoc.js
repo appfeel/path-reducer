@@ -69,7 +69,7 @@ function generateDocType(type, actions, fakeReducer) {
     const store = createStore(fakeReducer, applyMiddleware(pathReducer));
     let action;
 
-    log += `## ${type} store state\n`;
+    log += `## ${type} store state\n\n`;
     for (action in actions) {
         if (actions.hasOwnProperty(action)) {
             const initialState = JSON.stringify(store.getState().toJS(), null, 4);
@@ -114,6 +114,7 @@ export default function generateDoc() {
 
             generateDocIndex('Object', objActions);
             generateDocIndex('Array', arrActions);
+            log += '\n';
             generateDocType('Object', objActions, fakeObjReducer);
             generateDocType('Array', arrActions, fakeArrReducer);
             // console.log(log);
