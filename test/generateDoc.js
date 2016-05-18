@@ -45,23 +45,23 @@ function humanize(s) {
 function logStates(initialStateStr) {
     return (nextState) => {
         log += '<table>\n';
-        log += '  <tr>';
-        log += '    <th>Initial store state:</th>';
-        log += '    <th>Next store state:</th>';
-        log += '  </tr>';
-        log += '  <tr>';
-        log += '    <th>';
+        log += '<tr>';
+        log += '<th>Initial store state:</th>';
+        log += '<th>Next store state:</th>';
+        log += '</tr>';
+        log += '<tr>';
+        log += '<th>';
         log += '<pre lang="json">';
         log += `${initialStateStr}`;
         log += '</pre>';
-        log += '    </th>';
-        log += '    <th>';
+        log += '</th>';
+        log += '<th>';
         log += '<pre lang="json">';
         log += `${JSON.stringify(nextState.toJS(), null, 4)}`;
         log += '</pre>';
-        log += '    </th>';
-        log += '  </tr>';
-        log += '</table>\n';
+        log += '</th>';
+        log += '</tr>';
+        log += '</table>\n\n';
     };
 }
 
