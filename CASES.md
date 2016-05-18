@@ -12,8 +12,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -48,10 +47,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -86,9 +82,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Do nothing alt action
 Dispatched action: doNothingAlt:
 
@@ -136,8 +130,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -172,10 +165,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -210,9 +200,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Add element action
 Dispatched action: addElement:
 
@@ -229,8 +217,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -265,10 +252,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -304,9 +288,7 @@ store.dispatch({
         }
     ],
     "kaw": 0
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Update element action
 Dispatched action: updateElement:
 
@@ -323,8 +305,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -359,10 +340,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 1,
     "bar": {
         "boo": 0,
@@ -397,9 +375,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Remove element action
 Dispatched action: removeElement:
 
@@ -446,8 +422,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -482,10 +457,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "bar": {
         "boo": 0,
         "bla": 0
@@ -519,9 +491,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Add object action
 Dispatched action: addObject:
 
@@ -541,8 +511,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -577,10 +546,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -618,9 +584,7 @@ store.dispatch({
     "kaw": {
         "ree": 0
     }
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Add element in object action
 Dispatched action: addElementInObject:
 
@@ -638,8 +602,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -674,10 +637,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "kaw": 0
@@ -711,9 +671,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Add object in object action
 Dispatched action: addObjectInObject:
 
@@ -736,8 +694,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -772,10 +729,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "ree": {
@@ -811,9 +765,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Add array in object action
 Dispatched action: addArrayInObject:
 
@@ -838,8 +790,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -874,10 +825,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -917,9 +865,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Update object action
 Dispatched action: updateObject:
 
@@ -939,8 +885,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -975,10 +920,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 1,
@@ -1013,9 +955,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Update element in object action
 Dispatched action: updateElementInObject:
 
@@ -1033,8 +973,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1069,10 +1008,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 1,
@@ -1107,9 +1043,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Remove object action
 Dispatched action: removeObject:
 
@@ -1153,8 +1087,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1189,10 +1122,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "lee": [
         {
@@ -1223,9 +1153,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Add object in array action
 Dispatched action: addObjectInArray:
 
@@ -1280,8 +1208,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1316,10 +1243,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1363,9 +1287,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Update array action
 Dispatched action: updateArray:
 
@@ -1413,8 +1335,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1449,10 +1370,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1489,9 +1407,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Remove array action
 Dispatched action: removeArray:
 
@@ -1510,8 +1426,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1546,18 +1461,13 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
         "bla": 0
     }
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Remove object in array action
 Dispatched action: removeObjectInArray:
 
@@ -1594,8 +1504,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1630,10 +1539,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1659,9 +1565,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Remove objects in array action
 Dispatched action: removeObjectsInArray:
 
@@ -1688,8 +1592,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1724,10 +1627,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1744,9 +1644,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ### Remove all in array action
 Dispatched action: removeAllInArray:
 
@@ -1768,8 +1666,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1804,19 +1701,14 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
         "bla": 0
     },
     "lee": []
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ###  add element in array action
 Dispatched action: _addElementInArray:
 
@@ -1836,8 +1728,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1872,10 +1763,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1906,9 +1794,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ###  update element in array action
 Dispatched action: _updateElementInArray:
 
@@ -1928,8 +1814,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -1964,10 +1849,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -2002,9 +1884,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ###  add object in array action
 Dispatched action: _addObjectInArray:
 
@@ -2027,8 +1907,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -2063,10 +1942,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -2099,9 +1975,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ###  add element in object in array action
 Dispatched action: _addElementInObjectInArray:
 
@@ -2122,8 +1996,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -2158,10 +2031,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -2195,9 +2065,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ###  add object in object in array action
 Dispatched action: _addObjectInObjectInArray:
 
@@ -2223,8 +2091,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -2259,10 +2126,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -2298,9 +2162,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ###  add array in object in array action
 Dispatched action: _addArrayInObjectInArray:
 
@@ -2328,8 +2190,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -2364,10 +2225,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -2407,9 +2265,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ###  update object in array action
 Dispatched action: _updateObjectInArray:
 
@@ -2432,8 +2288,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -2468,10 +2323,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -2506,9 +2358,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ###  update element in object in array action
 Dispatched action: _updateElementInObjectInArray:
 
@@ -2529,8 +2379,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-{
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -2565,10 +2414,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>    <th>```json
-{
+}</pre>    </th>    <th><pre lang="json">{
     "foo": 0,
     "bar": {
         "boo": 0,
@@ -2603,9 +2449,7 @@ store.dispatch({
             }
         }
     ]
-}
-```
-    </th>  </tr></table>
+}</pre>    </th>  </tr></table>
 ## Array store state
 ###   add object in array action
 Dispatched action: __addObjectInArray:
@@ -2658,8 +2502,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-[
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -2687,10 +2530,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>    <th>```json
-[
+]</pre>    </th>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -2727,9 +2567,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>  </tr></table>
+]</pre>    </th>  </tr></table>
 ###   update array action
 Dispatched action: __updateArray:
 
@@ -2774,8 +2612,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-[
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -2803,10 +2640,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>    <th>```json
-[
+]</pre>    </th>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -2836,9 +2670,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>  </tr></table>
+]</pre>    </th>  </tr></table>
 ###   remove object in array action
 Dispatched action: __removeObjectInArray:
 
@@ -2872,8 +2704,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-[
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -2901,10 +2732,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>    <th>```json
-[
+]</pre>    </th>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -2923,9 +2751,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>  </tr></table>
+]</pre>    </th>  </tr></table>
 ###    add element in array action
 Dispatched action: ___addElementInArray:
 
@@ -2944,8 +2770,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-[
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -2973,10 +2798,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>    <th>```json
-[
+]</pre>    </th>    <th><pre lang="json">[
     {
         "too": {
             "kaw": 0
@@ -3000,9 +2822,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>  </tr></table>
+]</pre>    </th>  </tr></table>
 ###    update element in array action
 Dispatched action: ___updateElementInArray:
 
@@ -3021,8 +2841,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-[
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -3050,10 +2869,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>    <th>```json
-[
+]</pre>    </th>    <th><pre lang="json">[
     {
         "too": {
             "foo": 1,
@@ -3081,9 +2897,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>  </tr></table>
+]</pre>    </th>  </tr></table>
 ###    add object in array action
 Dispatched action: ___addObjectInArray:
 
@@ -3105,8 +2919,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-[
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -3134,10 +2947,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>    <th>```json
-[
+]</pre>    </th>    <th><pre lang="json">[
     {
         "too": {
             "kaw": {
@@ -3163,9 +2973,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>  </tr></table>
+]</pre>    </th>  </tr></table>
 ###    add element in object in array action
 Dispatched action: ___addElementInObjectInArray:
 
@@ -3185,8 +2993,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-[
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -3214,10 +3021,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>    <th>```json
-[
+]</pre>    </th>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -3244,9 +3048,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>  </tr></table>
+]</pre>    </th>  </tr></table>
 ###    add object in object in array action
 Dispatched action: ___addObjectInObjectInArray:
 
@@ -3271,8 +3073,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-[
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -3300,10 +3101,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>    <th>```json
-[
+]</pre>    </th>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -3332,9 +3130,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>  </tr></table>
+]</pre>    </th>  </tr></table>
 ###    add array in object in array action
 Dispatched action: ___addArrayInObjectInArray:
 
@@ -3361,8 +3157,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-[
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -3390,10 +3185,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>    <th>```json
-[
+]</pre>    </th>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -3426,9 +3218,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>  </tr></table>
+]</pre>    </th>  </tr></table>
 ###    update object in array action
 Dispatched action: ___updateObjectInArray:
 
@@ -3450,8 +3240,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-[
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -3479,10 +3268,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>    <th>```json
-[
+]</pre>    </th>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -3510,9 +3296,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>  </tr></table>
+]</pre>    </th>  </tr></table>
 ###    update element in object in array action
 Dispatched action: ___updateElementInObjectInArray:
 
@@ -3532,8 +3316,7 @@ store.dispatch({
 ```
 
 <table>
-  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
-[
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -3561,10 +3344,7 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>    <th>```json
-[
+]</pre>    </th>    <th><pre lang="json">[
     {
         "too": {
             "foo": 0,
@@ -3592,6 +3372,4 @@ store.dispatch({
             }
         }
     }
-]
-```
-    </th>  </tr></table>
+]</pre>    </th>  </tr></table>
