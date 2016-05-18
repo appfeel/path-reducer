@@ -64,7 +64,7 @@ This is just a simple reducer. It expects an FSA action:
 The reducer function will look for an array in `meta` and an object/array in `payload`.
 When this conditions are met, it will try to update the path specified into the supplied state.
 
-**[SEE CASES.md](https://github.com/appfeel/path-reducer/CASES.md)** for an extended list of expample cases.
+**[SEE CASES.md](https://github.com/appfeel/path-reducer/blob/master/CASES.md)** for an extended list of expample cases.
 
 *Note* the path must be relative to the suplied path, not to the state path. If you are updating a sub-tree of the state, you should add the corresponding part of the path to the action:
 

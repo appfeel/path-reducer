@@ -11,11 +11,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div>
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -53,11 +50,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -95,8 +88,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Do nothing alt action
 Dispatched action: doNothingAlt:
 
@@ -143,11 +135,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -185,11 +174,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -227,8 +212,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Add element action
 Dispatched action: addElement:
 
@@ -244,11 +228,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -286,11 +267,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -329,8 +306,7 @@ Next store state:
     "kaw": 0
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Update element action
 Dispatched action: updateElement:
 
@@ -346,11 +322,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -388,11 +361,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 1,
     "bar": {
@@ -430,8 +399,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Remove element action
 Dispatched action: removeElement:
 
@@ -477,11 +445,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -519,11 +484,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "bar": {
         "boo": 0,
@@ -560,8 +521,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Add object action
 Dispatched action: addObject:
 
@@ -580,11 +540,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -622,11 +579,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -667,8 +620,7 @@ Next store state:
     }
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Add element in object action
 Dispatched action: addElementInObject:
 
@@ -685,11 +637,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -727,11 +676,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -768,8 +713,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Add object in object action
 Dispatched action: addObjectInObject:
 
@@ -791,11 +735,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -833,11 +774,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -876,8 +813,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Add array in object action
 Dispatched action: addArrayInObject:
 
@@ -901,11 +837,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -943,11 +876,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -990,8 +919,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Update object action
 Dispatched action: updateObject:
 
@@ -1010,11 +938,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1052,11 +977,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1094,8 +1015,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Update element in object action
 Dispatched action: updateElementInObject:
 
@@ -1112,11 +1032,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1154,11 +1071,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1196,8 +1109,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Remove object action
 Dispatched action: removeObject:
 
@@ -1240,11 +1152,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1282,11 +1191,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "lee": [
@@ -1320,8 +1225,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Add object in array action
 Dispatched action: addObjectInArray:
 
@@ -1375,11 +1279,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1417,11 +1318,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1468,8 +1365,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Update array action
 Dispatched action: updateArray:
 
@@ -1516,11 +1412,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1558,11 +1451,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1602,8 +1491,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Remove array action
 Dispatched action: removeArray:
 
@@ -1621,11 +1509,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1663,11 +1548,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1676,8 +1557,7 @@ Next store state:
     }
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Remove object in array action
 Dispatched action: removeObjectInArray:
 
@@ -1713,11 +1593,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1755,11 +1632,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1788,8 +1661,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Remove objects in array action
 Dispatched action: removeObjectsInArray:
 
@@ -1815,11 +1687,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1857,11 +1726,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1881,8 +1746,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ### Remove all in array action
 Dispatched action: removeAllInArray:
 
@@ -1903,11 +1767,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1945,11 +1806,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -1959,8 +1816,7 @@ Next store state:
     "lee": []
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###  add element in array action
 Dispatched action: _addElementInArray:
 
@@ -1979,11 +1835,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2021,11 +1874,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2059,8 +1908,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###  update element in array action
 Dispatched action: _updateElementInArray:
 
@@ -2079,11 +1927,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2121,11 +1966,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2163,8 +2004,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###  add object in array action
 Dispatched action: _addObjectInArray:
 
@@ -2186,11 +2026,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2228,11 +2065,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2268,8 +2101,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###  add element in object in array action
 Dispatched action: _addElementInObjectInArray:
 
@@ -2289,11 +2121,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2331,11 +2160,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2372,8 +2197,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###  add object in object in array action
 Dispatched action: _addObjectInObjectInArray:
 
@@ -2398,11 +2222,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2440,11 +2261,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2483,8 +2300,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###  add array in object in array action
 Dispatched action: _addArrayInObjectInArray:
 
@@ -2511,11 +2327,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2553,11 +2366,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2600,8 +2409,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###  update object in array action
 Dispatched action: _updateObjectInArray:
 
@@ -2623,11 +2431,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2665,11 +2470,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2707,8 +2508,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###  update element in object in array action
 Dispatched action: _updateElementInObjectInArray:
 
@@ -2728,11 +2528,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2770,11 +2567,7 @@ Initial store state:
     ]
 }
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 {
     "foo": 0,
     "bar": {
@@ -2812,8 +2605,7 @@ Next store state:
     ]
 }
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ## Array store state
 ###   add object in array action
 Dispatched action: __addObjectInArray:
@@ -2865,11 +2657,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 [
     {
         "too": {
@@ -2900,11 +2689,7 @@ Initial store state:
     }
 ]
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 [
     {
         "too": {
@@ -2944,8 +2729,7 @@ Next store state:
     }
 ]
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###   update array action
 Dispatched action: __updateArray:
 
@@ -2989,11 +2773,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 [
     {
         "too": {
@@ -3024,11 +2805,7 @@ Initial store state:
     }
 ]
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 [
     {
         "too": {
@@ -3061,8 +2838,7 @@ Next store state:
     }
 ]
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###   remove object in array action
 Dispatched action: __removeObjectInArray:
 
@@ -3095,11 +2871,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 [
     {
         "too": {
@@ -3130,11 +2903,7 @@ Initial store state:
     }
 ]
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 [
     {
         "too": {
@@ -3156,8 +2925,7 @@ Next store state:
     }
 ]
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###    add element in array action
 Dispatched action: ___addElementInArray:
 
@@ -3175,11 +2943,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 [
     {
         "too": {
@@ -3210,11 +2975,7 @@ Initial store state:
     }
 ]
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 [
     {
         "too": {
@@ -3241,8 +3002,7 @@ Next store state:
     }
 ]
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###    update element in array action
 Dispatched action: ___updateElementInArray:
 
@@ -3260,11 +3020,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 [
     {
         "too": {
@@ -3295,11 +3052,7 @@ Initial store state:
     }
 ]
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 [
     {
         "too": {
@@ -3330,8 +3083,7 @@ Next store state:
     }
 ]
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###    add object in array action
 Dispatched action: ___addObjectInArray:
 
@@ -3352,11 +3104,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 [
     {
         "too": {
@@ -3387,11 +3136,7 @@ Initial store state:
     }
 ]
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 [
     {
         "too": {
@@ -3420,8 +3165,7 @@ Next store state:
     }
 ]
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###    add element in object in array action
 Dispatched action: ___addElementInObjectInArray:
 
@@ -3440,11 +3184,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 [
     {
         "too": {
@@ -3475,11 +3216,7 @@ Initial store state:
     }
 ]
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 [
     {
         "too": {
@@ -3509,8 +3246,7 @@ Next store state:
     }
 ]
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###    add object in object in array action
 Dispatched action: ___addObjectInObjectInArray:
 
@@ -3534,11 +3270,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 [
     {
         "too": {
@@ -3569,11 +3302,7 @@ Initial store state:
     }
 ]
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 [
     {
         "too": {
@@ -3605,8 +3334,7 @@ Next store state:
     }
 ]
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###    add array in object in array action
 Dispatched action: ___addArrayInObjectInArray:
 
@@ -3632,11 +3360,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 [
     {
         "too": {
@@ -3667,11 +3392,7 @@ Initial store state:
     }
 ]
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 [
     {
         "too": {
@@ -3707,8 +3428,7 @@ Next store state:
     }
 ]
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###    update object in array action
 Dispatched action: ___updateObjectInArray:
 
@@ -3729,11 +3449,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 [
     {
         "too": {
@@ -3764,11 +3481,7 @@ Initial store state:
     }
 ]
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 [
     {
         "too": {
@@ -3799,8 +3512,7 @@ Next store state:
     }
 ]
 ```
-  </div>
-</div>
+    </th>  </tr></table>
 ###    update element in object in array action
 Dispatched action: ___updateElementInObjectInArray:
 
@@ -3819,11 +3531,8 @@ store.dispatch({
 });
 ```
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">
-  <div style="display: inline-block;">
-Initial store state:
-
-```json
+<table>
+  <tr>    <th>Initial store state:</th>    <th>Next store state:</th>  </tr>  <tr>    <th>```json
 [
     {
         "too": {
@@ -3854,11 +3563,7 @@ Initial store state:
     }
 ]
 ```
-  </div>
-  <div style="display: inline-block;">
-Next store state:
-
-```json
+    </th>    <th>```json
 [
     {
         "too": {
@@ -3889,5 +3594,4 @@ Next store state:
     }
 ]
 ```
-  </div>
-</div>
+    </th>  </tr></table>

@@ -45,20 +45,38 @@ function humanize(s) {
 function generateDocType(type, actions, fakeReducer) {
     const store = createStore(fakeReducer, applyMiddleware(pathReducer));
     const logStates = (initialStateStr) => (nextState) => {
-        log += '<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">\n';
-        log += '  <div style="display: inline-block;">\n';
-        log += 'Initial store state:\n\n';
+        log += '<table>\n';
+        log += '  <tr>';
+        log += '    <th>Initial store state:</th>';
+        log += '    <th>Next store state:</th>';
+        log += '  </tr>';
+        log += '  <tr>';
+        log += '    <th>';
         log += '```json\n';
         log += `${initialStateStr}\n`;
         log += '```\n';
-        log += '  </div>\n';
-        log += '  <div style="display: inline-block;">\n';
-        log += 'Next store state:\n\n';
+        log += '    </th>';
+        log += '    <th>';
         log += '```json\n';
         log += `${JSON.stringify(nextState.toJS(), null, 4)}\n`;
         log += '```\n';
-        log += '  </div>\n';
-        log += '</div>\n';
+        log += '    </th>';
+        log += '  </tr>';
+        log += '</table>\n';
+        // log += '<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">\n';
+        // log += '  <div style="display: inline-block;">\n';
+        // log += 'Initial store state:\n\n';
+        // log += '```json\n';
+        // log += `${initialStateStr}\n`;
+        // log += '```\n';
+        // log += '  </div>\n';
+        // log += '  <div style="display: inline-block;">\n';
+        // log += 'Next store state:\n\n';
+        // log += '```json\n';
+        // log += `${JSON.stringify(nextState.toJS(), null, 4)}\n`;
+        // log += '```\n';
+        // log += '  </div>\n';
+        // log += '</div>\n';
     };
     let action;
 
