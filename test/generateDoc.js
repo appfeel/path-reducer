@@ -42,9 +42,8 @@ function humanize(s) {
     return capitalize(underscored(s).replace(/_id$/, '').replace(/_/g, ' '));
 }
 
-function generateDocType(type, actions, fakeReducer) {
-    const store = createStore(fakeReducer, applyMiddleware(pathReducer));
-    const logStates = (initialStateStr) => (nextState) => {
+function logStates(initialStateStr) {
+    return (nextState) => {
         log += '<table>\n';
         log += '  <tr>';
         log += '    <th>Initial store state:</th>';
@@ -63,34 +62,19 @@ function generateDocType(type, actions, fakeReducer) {
         log += '    </th>';
         log += '  </tr>';
         log += '</table>\n';
-        // log += '<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;">\n';
-        // log += '  <div style="display: inline-block;">\n';
-        // log += 'Initial store state:\n\n';
-        // log += '```json\n';
-        // log += `${initialStateStr}\n`;
-        // log += '```\n';
-        // log += '  </div>\n';
-        // log += '  <div style="display: inline-block;">\n';
-        // log += 'Next store state:\n\n';
-        // log += '```json\n';
-        // log += `${JSON.stringify(nextState.toJS(), null, 4)}\n`;
-        // log += '```\n';
-        // log += '  </div>\n';
-        // log += '</div>\n';
     };
+}
+
+function generateDocType(type, actions, fakeReducer) {
+    const store = createStore(fakeReducer, applyMiddleware(pathReducer));
     let action;
 
     log += `## ${type} store state\n`;
-    // log += `### Initial store state:\n`;
-    // logObject('The initial store state will be the following one for every case below:')(
-    //     store.getState()
-    // );
-
     for (action in actions) {
         if (actions.hasOwnProperty(action)) {
             const initialState = JSON.stringify(store.getState().toJS(), null, 4);
             subscribedCbs.push(updateImmutableState);
-            log += `### ${humanize(actions[action].type)} action\n`;
+            log += `### ${humanize(actions[action].type.replace(/_/g, ''))} action\n`;
             log += `Dispatched action: ${actions[action].type}:\n\n`;
             log += '```javascript\n';
             log += `store.dispatch(${JSON.stringify(actions[action], null, 4)});\n`;
@@ -102,9 +86,23 @@ function generateDocType(type, actions, fakeReducer) {
     }
 }
 
+function generateDocIndex(type, actions) {
+    let action;
+    log += `- [${type} store state](https://github.com/appfeel/path-reducer/blob/master/CASES.md#${type.toLowerCase()}-store-state)\n`;
+
+    for (action in actions) {
+        if (objActions.hasOwnProperty(action)) {
+            const caseLink = humanize(objActions[action].type.replace(/_/g, ''));
+            const caseLinkAnchor = caseLink.replace(/\s/g, '-').toLowerCase();
+            log += `  - [${caseLink}](https://github.com/appfeel/path-reducer/blob/master/CASES.md#${caseLinkAnchor})\n`;
+        }
+    }
+}
+
 export default function generateDoc() {
     describe('Generate documentation', () => {
         it('should generate documentation for every tested case', (done) => {
+
             fs.truncateSync('./CASES.md', 0);
             const ws = fs.createWriteStream('./CASES.md');
             ws.on('error', (err) => {
@@ -113,6 +111,9 @@ export default function generateDoc() {
             ws.on('finish', () => {
                 done();
             });
+
+            generateDocIndex('Object', objActions);
+            generateDocIndex('Array', arrActions);
             generateDocType('Object', objActions, fakeObjReducer);
             generateDocType('Array', arrActions, fakeArrReducer);
             // console.log(log);
