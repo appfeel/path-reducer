@@ -51,13 +51,13 @@ function logStates(initialStateStr) {
         log += '</tr>';
         log += '<tr>';
         log += '<th>';
-        log += '<pre lang="json">';
-        log += `${initialStateStr}`;
+        log += '<pre lang="json">\n';
+        log += `${initialStateStr}\n`;
         log += '</pre>';
         log += '</th>';
         log += '<th>';
-        log += '<pre lang="json">';
-        log += `${JSON.stringify(nextState.toJS(), null, 4)}`;
+        log += '<pre lang="json">\n';
+        log += `${JSON.stringify(nextState.toJS(), null, 4)}\n`;
         log += '</pre>';
         log += '</th>';
         log += '</tr>';
@@ -75,7 +75,7 @@ function generateDocType(type, actions, fakeReducer) {
             const initialState = JSON.stringify(store.getState().toJS(), null, 4);
             subscribedCbs.push(updateImmutableState);
             log += `### ${humanize(actions[action].type.replace(/_/g, ''))} action\n`;
-            log += `Dispatched action: ${actions[action].type}:\n\n`;
+            log += `Dispatched action: \`${actions[action].type}\`\n\n`;
             log += '```javascript\n';
             log += `store.dispatch(${JSON.stringify(actions[action], null, 4)});\n`;
             log += '```\n';
