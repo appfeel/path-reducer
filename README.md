@@ -53,7 +53,7 @@ assert.equal(store.getState(), {
 This is a reducer wrapper that makes your life easier:
 
 ```javascript
-const reducer = (state ) defaultState, action) {
+const reducer = (state = defaultState, action) {
     // The state here is already parsed
     return state;
 };
