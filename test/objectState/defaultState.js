@@ -22,5 +22,5 @@ export const defaultState = Object.assign(
                 pot: simpleObject,
             },
         ],
-    },
+    }
 );

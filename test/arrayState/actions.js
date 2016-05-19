@@ -28,8 +28,4 @@ export const rootArrayObjectInArrayActions = Object.keys(objectInArrayActions).r
     {}
 );
 
-export const actions = Object.assign(
-    {},
-    rootArrayActions,
-    rootArrayObjectInArrayActions,
-);
+export const actions = Object.assign({}, rootArrayActions, rootArrayObjectInArrayActions);

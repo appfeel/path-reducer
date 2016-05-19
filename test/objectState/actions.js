@@ -247,9 +247,4 @@ export const objectInArrayActions = Object.keys(simpleObjectActions).reduce((nex
     return next;
 }, {});
 
-export const actions = Object.assign(
-    {},
-    simpleObjectActions,
-    arrayActions,
-    objectInArrayActions,
-);
+export const actions = Object.assign({}, simpleObjectActions, arrayActions, objectInArrayActions);
