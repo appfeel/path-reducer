@@ -5,7 +5,7 @@ import { createReducerTest, executeCbs } from './helpers';
 import { defaultState as objDefaultState, actions as objActions } from './objectState/index';
 
 const subscribedCbs = [];
-const fakeObjReducer = (state = objDefaultState, action) => {
+const fakeObjReducer = (state = objDefaultState, action = {}) => {
     executeCbs(subscribedCbs, state, action);
     // We return original state in order to not mutate it,
     // So every test is done over the same initial state
@@ -25,14 +25,10 @@ export default function executeTest() {
     });
 
     describe('Not Immutable object state store', () => {
-        it('dispatch', () => {
-            console.log('      \x1b[33mNot yet implemented\x1b[0m');
-        });
+        it('Not yet implemented');
     });
 
     describe('Not Immutable array state store', () => {
-        it('dispatch', () => {
-            console.log('      \x1b[33mNot yet implemented\x1b[0m');
-        });
+        it('Not yet implemented');
     });
 }

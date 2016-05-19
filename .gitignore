@@ -6,3 +6,4 @@ tmp
 .idea
 test/logs
 coverage
+.sonar

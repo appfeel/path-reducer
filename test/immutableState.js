@@ -10,13 +10,13 @@ import { defaultState as arrDefaultState, actions as arrActions } from './arrayS
 const subscribedCbs = [];
 const immObjDefaultState = Immutable.fromJS(objDefaultState); // Immutable state
 const immArrDefaultState = Immutable.fromJS(arrDefaultState); // Immutable state
-const fakeObjReducer = (state = immObjDefaultState, action) => {
+const fakeObjReducer = (state = immObjDefaultState, action = {}) => {
     executeCbs(subscribedCbs, state, action);
     // We return original state in order to not mutate it,
     // So every test is done over the same initial state
     return state;
 };
-const fakeArrReducer = (state = immArrDefaultState, action) => {
+const fakeArrReducer = (state = immArrDefaultState, action = {}) => {
     executeCbs(subscribedCbs, state, action);
     // We return original state in order to not mutate it,
     // So every test is done over the same initial state
