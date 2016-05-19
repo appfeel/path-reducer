@@ -2,8 +2,7 @@ import { describe, it } from 'mocha';
 import { assert } from 'chai';
 import fs from 'fs';
 import Immutable from 'immutable';
-import { createStore, applyMiddleware } from 'redux';
-import { pathReducer } from '../';
+import { createStore } from 'redux';
 import { executeCbs } from './helpers';
 import { defaultState as objDefaultState, actions as objActions } from './objectState/index';
 import { defaultState as arrDefaultState, actions as arrActions } from './arrayState/index';
@@ -12,13 +11,13 @@ import { updateImmutableState } from '../';
 const subscribedCbs = [];
 const immObjDefaultState = Immutable.fromJS(objDefaultState); // Immutable state
 const immArrDefaultState = Immutable.fromJS(arrDefaultState); // Immutable state
-const fakeObjReducer = (state = immObjDefaultState, action = {}) => {
+const objReducer = (state = immObjDefaultState, action = {}) => {
     executeCbs(subscribedCbs, state, action);
     // We return original state in order to not mutate it,
     // So every test is done over the same initial state
     return state;
 };
-const fakeArrReducer = (state = immArrDefaultState, action = {}) => {
+const arrReducer = (state = immArrDefaultState, action = {}) => {
     executeCbs(subscribedCbs, state, action);
     // We return original state in order to not mutate it,
     // So every test is done over the same initial state
@@ -65,8 +64,8 @@ function logStates(initialStateStr) {
     };
 }
 
-function generateDocType(type, actions, fakeReducer) {
-    const store = createStore(fakeReducer, applyMiddleware(pathReducer));
+function generateDocType(type, actions, reducer) {
+    const store = createStore(reducer);
     let action;
 
     log += `## ${type} store state\n\n`;
@@ -115,8 +114,8 @@ export default function generateDoc() {
             generateDocIndex('Object', objActions);
             generateDocIndex('Array', arrActions);
             log += '\n';
-            generateDocType('Object', objActions, fakeObjReducer);
-            generateDocType('Array', arrActions, fakeArrReducer);
+            generateDocType('Object', objActions, objReducer);
+            generateDocType('Array', arrActions, arrReducer);
             ws.write(head);
             ws.write(log);
             ws.end();

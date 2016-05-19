@@ -13,7 +13,7 @@ At this development stage, it only works with [immutable-js](https://facebook.gi
 
 ```javascript
 import { assert } from 'chai';
-import { updateImmutableState } from 'path-reducer';
+import { pathReducer } from 'path-reducer';
 import { Immutable } from 'immutable';
 import { createStore } from 'redux';
 
@@ -25,11 +25,10 @@ const defaultState = Immutable.fromJS({
     }
 });
 const reducer = (state = defaultState, action) => {
-    const nextState = updateImmutableState(state, action);
     // Operate with nextState here
-    return nextState;
+    return state;
 };
-const store = createStore(reducer);
+const store = createStore(pathReducer(reducer));
 const action = {
     type: 'updateElementInObject',
     meta: ['bar', 'boo'],
@@ -50,8 +49,61 @@ assert.equal(store.getState(), {
 
 # API
 
+## pathReducer(reducer)
+This is a reducer wrapper that makes your life easier:
+
+```javascript
+const reducer = (state ) defaultState, action) {
+    // The state here is already parsed
+    return state;
+};
+const store = createStore(pathReducer(reducer));
+```
+
+The `pathReducer` function will look for an array in `meta` and an object/array in `payload`.
+If this conditions are met, it will try to update the path specified into the supplied state.
+
+**[SEE CASES.md](https://github.com/appfeel/path-reducer/blob/master/CASES.md)** for an extended list of expample cases.
+
+
 ## updateImmutableState(state, action)
-This is just a simple reducer. It expects an FSA action:
+This is just a simple reducer. It allows you to setup which parts of your reducer will be updated with path:
+
+```javascript
+import { updateImmutableState } from 'path-reducer';
+import { combineReducers, createStore } from 'redux';
+
+const somePartOfTheTree = (state = someDefaultState, action) => {
+    switch (action.type) {
+        case 'PATH':
+            const nextState = updateImmutableState(state, action);
+            // Operate with nextState here
+            return nextState;
+        default:
+            return state;
+    }
+};
+
+const anotherPartOfTheTree = (state = anotherDefaultState, action) => {
+    switch (action.type) {
+        case 'NO_PATH':
+            const nextState = Object.assign({}, state);
+            // ... Operate the state
+            return nextState;
+        default:
+            return state;
+    }
+};
+
+const wholeTree = combineReducers({
+    somePartOfTheTree,
+    anotherPartOfTheTree,
+});
+
+const store = createStore(wholeTree);
+```
+
+It expects an FSA action:
 
 ```json
 {
@@ -61,12 +113,8 @@ This is just a simple reducer. It expects an FSA action:
 }
 ```
 
-The reducer function will look for an array in `meta` and an object/array in `payload`.
-When this conditions are met, it will try to update the path specified into the supplied state.
-
-**[SEE CASES.md](https://github.com/appfeel/path-reducer/blob/master/CASES.md)** for an extended list of expample cases.
-
 *Note* the path must be relative to the suplied path, not to the state path. If you are updating a sub-tree of the state, you should add the corresponding part of the path to the action:
+
 
 ```javascript
 const reducer = (state = defaultState, action) => {

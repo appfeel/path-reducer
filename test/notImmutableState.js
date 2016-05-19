@@ -1,11 +1,10 @@
 import { describe, it } from 'mocha';
-import { createStore, applyMiddleware } from 'redux';
-import { pathReducer } from '../';
+import { createStore } from 'redux';
 import { createReducerTest, executeCbs } from './helpers';
 import { defaultState as objDefaultState, actions as objActions } from './objectState/index';
 
 const subscribedCbs = [];
-const fakeObjReducer = (state = objDefaultState, action = {}) => {
+const objReducer = (state = objDefaultState, action = {}) => {
     executeCbs(subscribedCbs, state, action);
     // We return original state in order to not mutate it,
     // So every test is done over the same initial state
@@ -13,12 +12,8 @@ const fakeObjReducer = (state = objDefaultState, action = {}) => {
 };
 export default function executeTest() {
     describe('Not Immutable object state store', () => {
-        const store = createStore(fakeObjReducer, applyMiddleware(pathReducer));
+        const store = createStore(objReducer);
         const test = createReducerTest(store, subscribedCbs, objDefaultState);
-
-        it('store should be correctly created with pathReducer middleware', () => {
-            createStore(fakeObjReducer, applyMiddleware(pathReducer));
-        });
 
         it(`dispatch ${objActions.doNothing.type} action`, test(objActions.doNothing));
         it(`dispatch ${objActions.doNothingAlt.type} action`, test(objActions.doNothingAlt));
@@ -29,6 +24,14 @@ export default function executeTest() {
     });
 
     describe('Not Immutable array state store', () => {
+        it('Not yet implemented');
+    });
+
+    describe('Not Immutable object state store with pathReducer wrapper', () => {
+        it('Not yet implemented');
+    });
+
+    describe('Not Immutable array state store with pathReducer wrapper', () => {
         it('Not yet implemented');
     });
 }
