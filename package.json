@@ -19,7 +19,9 @@
     "url": "https://github.com/appfeel/path-reducer/issues"
   },
   "homepage": "https://github.com/appfeel/path-reducer",
-  "dependencies": {},
+  "dependencies": {
+    "babel-preset-es2015": "^6.9.0"
+  },
   "peerDependencies": {
     "immutable": "^3.8.1"
   },
@@ -27,7 +29,6 @@
     "babel-cli": "^6.9.0",
     "babel-core": "^6.9.0",
     "babel-eslint": "^6.0.4",
-    "babel-preset-es2015": "^6.9.0",
     "chai": "^3.5.0",
     "deep-freeze": "0.0.1",
     "eslint": "^2.10.2",
