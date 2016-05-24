@@ -1,6 +1,6 @@
 {
   "name": "path-reducer",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Redux middleware that updates the state with action path",
   "main": "index.js",
   "scripts": {
