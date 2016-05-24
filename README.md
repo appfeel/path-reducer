@@ -4,7 +4,7 @@
 [![NPM version](http://img.shields.io/npm/v/path-reducer.svg?style=flat)](https://npmjs.org/package/path-reducer)
 [![Downloads](http://img.shields.io/npm/dm/path-reducer.svg?style=flat)](https://npmjs.org/package/path-reducer)
 [![Build Status](http://img.shields.io/travis/appfeel/path-reducer.svg?style=flat)](https://travis-ci.org/appfeel/path-reducer)
-[![dependency status](https://img.shields.io/david/gcanti/path-reducer.svg?style=flat-square)](https://david-dm.org/appfeel/path-reducer)
+[![dependency status](https://img.shields.io/david/appfeel/path-reducer.svg?style=flat)](https://david-dm.org/appfeel/path-reducer)
 
 This is a reducer function to modify the app state via path (100% compatible with [redux](https://github.com/reactjs/redux)).
 At this development stage, it only works with [immutable-js](https://facebook.github.io/immutable-js/docs/#/) state objects.
